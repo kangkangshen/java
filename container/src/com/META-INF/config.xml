@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<context xmlns="http://www.helison.archer.com"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+         xs:schemaLocation="http://www.helison.archer.com ../archer/support/xml/archer-config-01.xsd">
+    <container>
+        <bean id="wukang" class="archer.test.Student">
+            <constructor-arg index="0" val="3"/>
+        </bean>>
+    </container>
+</context>
