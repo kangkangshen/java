@@ -14,9 +14,9 @@ Software architecture description
 
 #### Instructions
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 当前版本属于最早最新创建的版本，尽管还有部分代码尚未完善，但已经可以支持日常使用
+2. ioc模块与spring功能大致相同，暂时尚未提供list,map等容器方式注入
+3. 代码层次清晰，功能分布清楚，且在util包中提供了很多日常使用的帮助方法
 
 #### Contribution
 
