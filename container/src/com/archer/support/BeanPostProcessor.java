@@ -1,4 +1,4 @@
-package archer.definition;
+package archer.support;
 
 public interface BeanPostProcessor {
     Object processRawBeanBeforeInstantiation(Object rawBean);

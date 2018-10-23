@@ -5,15 +5,11 @@ package archer.support;/*
 import archer.*;
 import archer.config.Configuration;
 import archer.config.XmlReader;
-import archer.config.annnotation.Bean;
 import archer.definition.*;
 import archer.context.lifecycle.InitializingBean;
 import archer.context.lifecycle.EventListener;
 import archer.support.baseImpl.AbstractAliasRegistrar;
-import archer.support.convert.Date2StringConverter;
-import archer.support.convert.String2DateConverter;
-import archer.support.convert.String2PrimitiveConverter;
-import archer.support.convert.String2ResourceConverter;
+import archer.support.convert.*;
 import archer.support.debug.Description;
 import archer.support.ext.ExtensibleBeanContainer;
 import archer.util.*;
@@ -91,10 +87,9 @@ public  class ConfigurationBasedBeanContainer extends AbstractAliasRegistrar imp
     }
 
     protected void prepareToloadBeans(){
-        this.objectMap.putIfAbsent("string2PrimitiveBean",new String2PrimitiveConverter());
-        this.objectMap.putIfAbsent("string2ResourceBean",new String2ResourceConverter());
-        this.objectMap.putIfAbsent("string2DateBean",new String2DateConverter());
-        this.objectMap.putIfAbsent("date2StringBean",new Date2StringConverter());
+        TypeConverterComposite defaultInternalConverter=new TypeConverterComposite();
+        defaultInternalConverter.detectAllTypeConverter(this);
+        this.objectMap.putIfAbsent("internalTypeConverterComposite",new TypeConverterComposite());
     }
     protected void loadBeansEagerly(){
 
@@ -142,7 +137,6 @@ public  class ConfigurationBasedBeanContainer extends AbstractAliasRegistrar imp
     @Override
     public void setConfiguration(Configuration configLocation) {
         this.configuration=configLocation;
-
     }
 
     @Override
@@ -188,7 +182,7 @@ public  class ConfigurationBasedBeanContainer extends AbstractAliasRegistrar imp
             ;
         }else if(beans.size()>1){
             //sort and choose the first
-            ;
+
         }else{
             ;
         }
@@ -312,9 +306,9 @@ public  class ConfigurationBasedBeanContainer extends AbstractAliasRegistrar imp
                 beanInstance=createBeanInstance(beanId,rbd,args);
                 beanInstance=getObjectForBeanInstance(beanId,beanInstance);
             }else if(rbd.isPrototype()){
-                //...
+                //...todo
             }else{
-                //...
+                //...todo
             }
         }
         return (T)beanInstance;
@@ -669,6 +663,7 @@ public  class ConfigurationBasedBeanContainer extends AbstractAliasRegistrar imp
 
 
     protected void fetchAllListener(ConfigurableBeanContainer container){
+        //todo
 
     }
     protected Object instantiateBean(String beanId,BeanDefinition rbd,Object[] args)  {
@@ -716,10 +711,11 @@ public  class ConfigurationBasedBeanContainer extends AbstractAliasRegistrar imp
     protected Object applyBeanPostProcessor(Object o,BeanDefinition definition,BeanContainer container){
 
         for(BeanPostProcessor processor:processors){
-
+            if(o!=null){
+                processor.processInstanceAfterInstantiation(o);
+            }
         }
         return o;
-
     }
 
     protected void populateProperties(Object bean,Object[] args){
@@ -732,7 +728,6 @@ public  class ConfigurationBasedBeanContainer extends AbstractAliasRegistrar imp
             for(String dependOn:dependsOn){
                 getBean(dependOn);
             }
-
         }
     }
 
@@ -847,7 +842,12 @@ public  class ConfigurationBasedBeanContainer extends AbstractAliasRegistrar imp
 
     @Override
     public void applyBeanContainerPostProcessor(ConfigurableBeanContainer container) {
-
+        if(containerPostProcessors!=null||!containerPostProcessors.isEmpty()){
+            for(BeanContainerPostProcessor processor:containerPostProcessors){
+                //todo
+                ;
+            }
+        }
     }
 
     @Override

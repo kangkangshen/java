@@ -2,15 +2,14 @@ package archer.support.convert;/*
  *@author:wukang
  */
 
-import archer.TypeConvertException;
+import archer.Rankable;
+import archer.support.TypeConvertException;
 import archer.support.TypeConverter;
 
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.IllegalFormatException;
-import java.util.UnknownFormatConversionException;
 
 public class String2DateConverter implements TypeConverter<String, Date> {
     private static final DateFormat DEFAULT_DATEFORMTER=new SimpleDateFormat("yyyy-MM-dd:hh-mm-ss");
@@ -50,5 +49,10 @@ public class String2DateConverter implements TypeConverter<String, Date> {
 
     public void setFormat(DateFormat format) {
         this.format = format;
+    }
+
+    @Override
+    public int rank() {
+        return Rankable.MIDDLE_PRIORITY;
     }
 }

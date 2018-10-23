@@ -2,7 +2,8 @@ package archer.support.convert;/*
  *@author:wukang
  */
 
-import archer.TypeConvertException;
+import archer.Rankable;
+import archer.support.TypeConvertException;
 import archer.support.TypeConverter;
 
 import java.text.DateFormat;
@@ -39,5 +40,10 @@ public class Date2StringConverter implements TypeConverter<Date,String> {
     }
     public void setFormat(DateFormat format){
         this.format=format;
+    }
+
+    @Override
+    public int rank() {
+        return Rankable.MIDDLE_PRIORITY;
     }
 }

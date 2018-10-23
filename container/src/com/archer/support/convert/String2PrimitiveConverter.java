@@ -1,5 +1,6 @@
 package archer.support.convert;
 
+import archer.Rankable;
 import archer.support.TypeConverter;
 import com.sun.org.apache.bcel.internal.generic.FLOAD;
 
@@ -49,5 +50,10 @@ public class String2PrimitiveConverter implements TypeConverter {
         }else{
             throw new UnsupportedOperationException("arg must is a instance of String");
         }
+    }
+
+    @Override
+    public int rank() {
+        return Rankable.MIDDLE_PRIORITY;
     }
 }
