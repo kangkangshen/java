@@ -3,6 +3,7 @@ package archer;
     test for archer
  */
 
+import archer.context.ApplicationContext;
 import archer.support.ConfigurationBasedBeanContainer;
 import archer.test.Student;
 
@@ -12,6 +13,7 @@ public class Main {
         BeanContainer container=new ConfigurationBasedBeanContainer("F:\\gitRepository\\container\\src\\com\\META-INF\\config.xml");
         Student student= (Student) container.getBean("wukang");
         student.print();
+
     }
 
 }

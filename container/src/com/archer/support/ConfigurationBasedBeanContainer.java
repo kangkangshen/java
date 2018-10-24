@@ -806,13 +806,39 @@ public  class ConfigurationBasedBeanContainer extends AbstractAliasRegistrar imp
     }
 
 
-    private Constructor findApplicableConstructor(Constructor[] constructors, ConstructorArgumentValues constructorArgumentValues) {
+    @Description(description = "此处应该尽全力寻找每个参数类型继承树最下面的，如果没办法保证每个参数都是这样，那么只能报错，Effective Java强调慎用重载，尤其是构造器.未来可能添加注解标识当出现冲突时，优先选择哪一个")
+    protected Constructor findApplicableConstructor(Constructor[] constructors, ConstructorArgumentValues constructorArgumentValues) {
+        List<Constructor> appliableConstructors=new ArrayList<>();
         for(Constructor constructor:constructors){
             if(methodAccessor.isTypeMatch(constructor,constructorArgumentValues)){
-                return constructor;
+                appliableConstructors.add(constructor);
             }
         }
-        return null;
+        if(appliableConstructors.size()==1){
+            return appliableConstructors.get(0);
+        }else{
+            Constructor optimalConstructor=appliableConstructors.get(0);
+            for(int i=1;i<appliableConstructors.size();i++){
+                Class[] paramTypes=optimalConstructor.getParameterTypes();
+                Class[] others=appliableConstructors.get(i).getParameterTypes();
+                boolean accurater=false;
+                boolean rougher=false;
+                for(int j=0;j<paramTypes.length;j++){
+                    if(others[j].isAssignableFrom(paramTypes[j])){
+                        accurater=true;
+                    }else{
+                        rougher=true;
+                    }
+                }
+                if(accurater&&rougher){
+                    throw new AmbiguousChoicesException("Can not find the most appliable Constructor because your class's constructor designed confusion .");
+                }
+                if(rougher){
+                    optimalConstructor=appliableConstructors.get(i);
+                }
+            }
+            return optimalConstructor;
+        }
     }
 
 

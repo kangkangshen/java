@@ -11,5 +11,4 @@ public interface LifeCycleBean {
 
     void publishEvent(Event event);
 
-
 }
