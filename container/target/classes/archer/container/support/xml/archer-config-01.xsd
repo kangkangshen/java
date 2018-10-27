@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.helison.archer.com"
+           elementFormDefault="qualified"
+>
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <!--根节点 context -->
+    <xs:element name="context">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="decription" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="container" type="containerType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="containerType">
+        <xs:choice minOccurs="0" maxOccurs="1">
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="bean" type="beanType"/>
+            <xs:element name="import" type="importType"/>
+            <xs:element name="aliasSet" type="aliasType"/>
+        </xs:choice>
+        <xs:attribute name="profile" default="" type="xs:string"/>
+        <xs:attribute name="id" default="" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="beanType">
+        <xs:sequence>
+            <xs:element name="description" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="meta" type="metaType" maxOccurs="1"/>
+                <xs:element name="constructor-arg" type="constructor-argType"/>
+                <xs:element name="property" type="propertyType"/>
+                <xs:element name="lookup-method" type="lookup-methodType"/>
+                <xs:element name="replace-method" type="replace-methodType"/>
+                <xs:element name="init-method" maxOccurs="1" type="init-methodType"/>
+                <xs:element name="factory-method" maxOccurs="1" type="factory-methodType"/>
+                <!--
+                <xs:any namespace="##other" processContents="strict" minOccurs="0" maxOccurs="unbounded"/>
+                -->
+            </xs:choice>
+        </xs:sequence>
+        <xs:attributeGroup ref="beanAttributes"/>
+    </xs:complexType>
+
+    <xs:complexType name="importType">
+        <xs:attributeGroup ref="import-attr-group"/>
+    </xs:complexType>
+
+    <xs:complexType name="aliasType">
+        <xs:sequence>
+            <xs:element name="alias">
+                <xs:complexType>
+                    <xs:attribute name="alias" type="xs:string"/>
+                    <xs:attribute name="forName" type="xs:string"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:attributeGroup name="import-attr-group">
+        <xs:attribute name="resource" type="xs:string"/>
+        <xs:attribute name="override" type="xs:boolean" default="false"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="id-name">
+        <xs:attribute name="id" default="" type="xs:string"/>
+        <xs:attribute name="name" default="" type="xs:string"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="beanAttributes">
+        <!--id,name属性可选，class属性必选 -->
+        <xs:attributeGroup ref="id-name"/>
+        <xs:attribute name="class"  type="xs:string" />
+        <xs:attribute name="scope" type="scopeenum"/>
+    </xs:attributeGroup>
+
+    <xs:simpleType name="scopeenum">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="singleton"/>
+            <xs:enumeration value="prototype"/>
+            <xs:enumeration value="other"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="metaType">
+        <xs:choice>
+            <xs:element name="list" type="listType"/>
+            <xs:element name="map" type="mapType"/>
+            <xs:element name="set" type="setType"/>
+            <xs:element name="props" type="propsType"/>
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:complexType name="constructor-argType">
+        <xs:attributeGroup ref="nameOrIndex"/>
+        <xs:attribute name="val"/>
+        <xs:attribute name="ref"/>
+    </xs:complexType>
+
+
+    <xs:attributeGroup name="nameOrIndex">
+        <xs:attribute name="name" type="xs:string"/>
+        <xs:attribute name="index" type="xs:int"/>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="value-ref">
+        <xs:attribute name="value" type="xs:string"/>
+        <xs:attribute name="ref" type="xs:string"/>
+    </xs:attributeGroup>
+
+    <xs:complexType name="propertyType">
+        <xs:attribute name="name" type="xs:string"/>
+        <xs:attributeGroup ref="value-ref"/>
+    </xs:complexType>
+
+    <xs:complexType name="qualifierType">
+        <xs:attribute name="name" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="init-methodType">
+        <xs:attribute name="method"/>
+    </xs:complexType>
+
+    <xs:complexType name="factory-methodType">
+        <xs:attribute name="method" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="get-instanceType">
+        <xs:attribute name="method" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="lookup-methodType">
+        <xs:attribute name="method" type="xs:string"/>
+        <xs:attribute name="bean" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="replace-methodType">
+        <xs:attribute name="method" type="xs:string"/>
+        <xs:attribute name="replace" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="baseCollection">
+        <xs:sequence>
+            <xs:element name="description" type="xs:string" minOccurs="0"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="bean" type="beanType"/>
+                <xs:element name="ref" type="refType"/>
+                <xs:element name="value" type="valueType"/>
+                <xs:element name="null" type="nullType"/>
+                <xs:element name="list" type="listType"/>
+                <xs:element name="set" type="setType"/>
+                <xs:element name="map" type="mapType"/>
+                <xs:element name="props" type="propsType"/>
+                <xs:any namespace="##other" processContents="strict" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="listType">
+        <xs:complexContent>
+            <xs:extension base="baseCollection"/>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="mapType">
+        <xs:attribute name="key" type="xs:string"/>
+        <xs:attribute name="value" type="baseCollection"/>
+    </xs:complexType>
+
+    <xs:complexType name="setType">
+        <xs:attribute name="value" type="baseCollection"/>
+    </xs:complexType>
+
+    <xs:complexType name="propsType">
+        <xs:attribute name="prop" type="baseCollection"/>
+    </xs:complexType>
+
+    <xs:complexType name="refType">
+        <xs:attributeGroup ref="id-name"/>
+    </xs:complexType>
+
+    <xs:simpleType name="valueType"/>
+
+    <xs:simpleType name="nullType"/>
+
+
+</xs:schema>

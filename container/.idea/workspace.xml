@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="container:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98e67b41-df12-4094-906e-ddcc58410079" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../aop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/aop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/container_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/container_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/META-INF/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/META-INF/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/Aware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/Aware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/BeanAliasRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/BeanAliasRegistrar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/BeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/BeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/BeanDefinitionRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/BeanDefinitionRegistrar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/BeanException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/BeanNameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/BeanNameGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/BeanPropertiesAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/BeanPropertiesAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/Capable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/Capable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/FactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/FactoryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/NamedBeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/NamedBeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/ObjectCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/ObjectCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/PropertyValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/PropertyValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/Rankable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/Rankable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/config/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/config/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/config/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/config/ConfigurationClassResover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/config/ConfigurationClassResover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/config/HasHorizontalRelationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/config/HasHorizontalRelationship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/config/HasVerticalRelationShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/config/HasVerticalRelationShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/config/JavaReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/config/JavaReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/config/NameSpaceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/config/NameSpaceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/config/NameSpaceHandlerComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/config/NameSpaceHandlerComposite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/config/XmlReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/config/XmlReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/config/annnotation/Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/config/annnotation/Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/config/annnotation/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/config/annnotation/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/config/annnotation/DependsOn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/config/annnotation/DependsOn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/config/annnotation/Import.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/config/annnotation/Import.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/config/annnotation/ImportSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/config/annnotation/ImportSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/context/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/context/ApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/context/ClasspathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/context/ClasspathXmlApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/context/lifecycle/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/context/lifecycle/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/context/lifecycle/EventContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/context/lifecycle/EventContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/context/lifecycle/EventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/context/lifecycle/EventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/context/lifecycle/InitedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/context/lifecycle/InitedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/context/lifecycle/InitializingBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/context/lifecycle/InitializingBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/context/lifecycle/LifeCycleBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/context/lifecycle/LifeCycleBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/context/lifecycle/ListableBeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/context/lifecycle/ListableBeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/definition/BaseBeanDefinitionHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/definition/BaseBeanDefinitionHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/definition/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/definition/BeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/definition/BeanDefinitionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/definition/BeanDefinitionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/definition/BeanDefinitionValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/definition/BeanDefinitionValidationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/definition/BeanNameIllegalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/definition/BeanNameIllegalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/definition/BeanProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/definition/BeanProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/definition/ConstructorArgumentValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/definition/ConstructorArgumentValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/definition/DuplicateRegisteredBeanException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/definition/DuplicateRegisteredBeanException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/definition/MethodOverrides.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/definition/MethodOverrides.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/definition/OptionalPropertyValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/definition/OptionalPropertyValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/definition/ResovledBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/definition/ResovledBy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/definition/RootBeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/definition/RootBeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/exlib/javax.inject.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/exlib/javax.inject.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/exlib/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/exlib/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/AbstractEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/AbstractEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/AliasCircleMappingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/AliasCircleMappingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/AmbiguousChoicesException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/AmbiguousChoicesException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/AnnotatedBeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/AnnotatedBeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/BeanContainerPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/BeanContainerPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/BeanContatinerAware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/BeanContatinerAware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/BeanCreationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/BeanCreationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/BeanCurrentlyInCreationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/BeanCurrentlyInCreationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/BeanInstantiationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/BeanInstantiationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/BeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/BeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/BeanWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/BeanWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/ConfigurableBeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/ConfigurableBeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/ConfigurationBasedBeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/ConfigurationBasedBeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/ContainerEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/ContainerEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/DefaultBeanNameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/DefaultBeanNameGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/DefaultEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/DefaultEnvironment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/DefaultParamNameDiscover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/DefaultParamNameDiscover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/HierarchicalBeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/HierarchicalBeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/LifeCycleBeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/LifeCycleBeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/ListableBeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/ListableBeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/MethodAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/MethodAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/MethodInfoAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/MethodInfoAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/MethodInfoHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/MethodInfoHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/NameAliasMappingChangedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/NameAliasMappingChangedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/NoApplicableConstructorFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/NoApplicableConstructorFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/NoSuchBeanDefinitionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/NoSuchBeanDefinitionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/NoSuchBeanException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/NoSuchBeanException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/NoUniqueMethodOrConstructorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/NoUniqueMethodOrConstructorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/NoUniqueSuchBeanException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/NoUniqueSuchBeanException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/ParamNameMethodDiscover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/ParamNameMethodDiscover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/ReturnValuesDontMatchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/ReturnValuesDontMatchException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/TypeConvertException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/TypeConvertException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/TypeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/TypeConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/XmlBeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/XmlBeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/baseImpl/AbstractAliasRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/baseImpl/AbstractAliasRegistrar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/baseImpl/BasedCachedBeanNameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/baseImpl/BasedCachedBeanNameGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/baseImpl/BasedCountingBeanNameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/baseImpl/BasedCountingBeanNameGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/convert/Date2StringConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/convert/Date2StringConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/convert/String2DateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/convert/String2DateConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/convert/String2PrimitiveConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/convert/String2PrimitiveConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/convert/String2ResourceConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/convert/String2ResourceConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/convert/TypeConverterComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/convert/TypeConverterComposite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/debug/Description.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/debug/Description.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/debug/ParamDesc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/debug/ParamDesc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/debug/Throws.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/debug/Throws.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/ext/ExtensibleBeanContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/ext/ExtensibleBeanContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/ext/impl/CglibMethodOverrideProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/ext/impl/CglibMethodOverrideProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/wrapper/BeanWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/wrapper/BeanWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/support/xml/archer-config-01.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/support/xml/archer-config-01.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/test/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/test/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/test/SubStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/test/SubStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/util/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/util/ArrayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/util/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/util/Assert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/util/BeanUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/util/BeanUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/util/EncodeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/util/EncodeResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/util/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/util/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/util/NamingPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/util/NamingPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/util/NamingPatternMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/util/NamingPatternMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/util/ObjectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/util/ObjectUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/util/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/util/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/util/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/util/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/util/UnexpectedDuringInjectionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/util/UnexpectedDuringInjectionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/util/XmlParseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/container/util/XmlParseException.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/aop/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="wukang: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/ConfigReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/Configuration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/ConfigurationClassResover.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/HasHorizontalRelationship.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/HasVerticalRelationShip.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/JavaReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/NameSpaceHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/NameSpaceHandlerComposite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/XmlReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="261" column="21" lean-forward="true" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/container/context/lifecycle/Event.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="mapper" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>insta</find>
+      <find>wait</find>
+      <find>replaceAll</find>
+      <find>replace</find>
+      <find>getBean</find>
+      <find>createBeanIns</find>
+      <find>isTypeMatch</find>
+      <find>getMethodNodes</find>
+      <find>getMethodNodeM</find>
+      <find>prepare</find>
+      <find>resovle</find>
+      <find>find</find>
+      <find>isTypeMATCH</find>
+      <find>mETHODa</find>
+      <find>getPrepa</find>
+      <find>createBean</find>
+      <find>appl</find>
+      <find>findApplica</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/archer/support/convert/String2ResourceConverter.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/support/TypeConvertException.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/support/MethodAccessor.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/support/convert/TypeConverterComposite.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/context/ApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/context/lifecycle/LifeCycleBean.java" />
+        <option value="F:/spring-learn/src/main/java/Sub.java" />
+        <option value="F:/spring-learn/pom.xml" />
+        <option value="$PROJECT_DIR$/src/com/archer/support/ext/impl/AspectJMethodOverrideProcessor.java" />
+        <option value="F:/spring-learn/src/main/java/testCglib/Sub.java" />
+        <option value="F:/spring-learn/src/main/java/testCglib/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/support/AmbiguousChoicesException.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/support/ConfigurationBasedBeanContainer.java" />
+        <option value="F:/spring-learn/src/main/java/testCglib/Main.java" />
+        <option value="F:/spring-learn/src/main/java/testCglib/Raw.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/definition/MethodOverrides.java" />
+        <option value="F:/spring-learn/src/main/java/testCglib/Intercepter.java" />
+        <option value="F:/spring-learn/src/main/java/aop/JDK/Service.java" />
+        <option value="F:/spring-learn/src/main/java/aop/JDK/MyInvocationHandler.java" />
+        <option value="F:/spring-learn/src/main/java/aop/JDK/ServiceImpl.java" />
+        <option value="F:/spring-learn/src/main/java/aop/JDK/Main.java" />
+        <option value="F:/spring-learn/src/main/java/aop/Man.java" />
+        <option value="F:/spring-learn/src/main/java/aop/Animal.java" />
+        <option value="F:/spring-learn/src/main/java/aop/Tiger.java" />
+        <option value="F:/spring-learn/src/main/java/Main.java" />
+        <option value="F:/spring-learn/src/main/java/aop/Father.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/support/ext/impl/CglibMethodOverrideProcessor.java" />
+        <option value="F:/spring-learn/src/main/java/aop/BeanPostProcessor.java" />
+        <option value="F:/spring-learn/src/main/java/aop/SmartInstantian.java" />
+        <option value="F:/spring-learn/src/main/java/aop/Main.java" />
+        <option value="F:/spring-learn/src/main/java/aop/Aspects.java" />
+        <option value="F:/spring-learn/src/main/java/aop/context.xml" />
+        <option value="F:/spring-learn/src/main/java/aop/Student.java" />
+        <option value="F:/spring-learn/src/main/java/aopPlugin/SystemBootMannager.java" />
+        <option value="F:/spring-learn/src/main/java/aopPlugin/InjectSelfProxy.java" />
+        <option value="F:/spring-learn/src/main/java/aopPlugin/SystemBootAddon.java" />
+        <option value="F:/spring-learn/src/main/java/aopPlugin/Aspect.java" />
+        <option value="F:/spring-learn/src/main/java/aopPlugin/Main.java" />
+        <option value="F:/spring-learn/src/main/java/aopPlugin/Waiter.java" />
+        <option value="F:/spring-learn/src/main/java/aopPlugin/SystemBootManager.java" />
+        <option value="F:/spring-learn/src/main/java/aopPlugin/context.xml" />
+        <option value="F:/spring-learn/src/main/java/aopPlugin/Aspects.java" />
+        <option value="$PROJECT_DIR$/aop/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/com/META-INF/config.xml" />
+        <option value="$PROJECT_DIR$/src/com/archer/container/BeanContainer.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/container/BeanNameGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/container/support/ext/ExtensibleBeanContainer.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/container/support/ConfigurationBasedBeanContainer.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/container/config/XmlReader.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="container" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="container" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="container" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="157" />
+    <option name="y" value="195" />
+    <option name="width" value="1080" />
+    <option name="height" value="717" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="container" type="b2602c69:ProjectViewProjectNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="container" type="b2602c69:ProjectViewProjectNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="container" type="b2602c69:ProjectViewProjectNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="container" type="b2602c69:ProjectViewProjectNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="container" type="b2602c69:ProjectViewProjectNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/container/src/com/archer/util/StringUtils.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540645351533" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/archer/test/java/archer/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3106893" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="archer.test" />
+      <recent name="archer.support" />
+      <recent name="" />
+      <recent name="archer.config" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="archer.support" />
+      <recent name="archer" />
+      <recent name="archer.support.lifecycle" />
+      <recent name="archer.util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\container\src\com\META-INF" />
+      <recent name="F:\container\src\com\archer" />
+      <recent name="F:\container\src\com\archer\support\xml" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\container\src\com\archer\support\xml" />
+      <recent name="F:\container\src\com\archer" />
+      <recent name="F:\container\src\com\archer\exlib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="archer.support" />
+      <recent name="archer.util" />
+      <recent name="archer.context.lifecycle" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="archer.container.Main" />
+      <module name="container" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="archer.container.support.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="container" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodParamNamesScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="archer.MethodParamNamesScanner" />
+      <module name="container" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="archer.container.support.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultParamNameDiscoverTest.decorateByteCodeType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="container" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="archer.container.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="archer.test" />
+      <option name="MAIN_CLASS_NAME" value="archer.test.DefaultParamNameDiscoverTest" />
+      <option name="METHOD_NAME" value="decorateByteCodeType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultParamNameDiscoverTest.getConstructorParamNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="container" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="archer.container.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="archer.test" />
+      <option name="MAIN_CLASS_NAME" value="archer.test.DefaultParamNameDiscoverTest" />
+      <option name="METHOD_NAME" value="getConstructorParamNames" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MethodParamNamesScanner" />
+      <item itemvalue="JUnit.DefaultParamNameDiscoverTest.decorateByteCodeType" />
+      <item itemvalue="JUnit.DefaultParamNameDiscoverTest.getConstructorParamNames" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.DefaultParamNameDiscoverTest.getConstructorParamNames" />
+        <item itemvalue="JUnit.DefaultParamNameDiscoverTest.decorateByteCodeType" />
+        <item itemvalue="Application.MethodParamNamesScanner" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98e67b41-df12-4094-906e-ddcc58410079" name="Default Changelist" comment="" />
+      <created>1534998963531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534998963531</updated>
+      <workItem from="1534998968332" duration="3656000" />
+      <workItem from="1535010986176" duration="8870000" />
+      <workItem from="1535076334632" duration="10368000" />
+      <workItem from="1535100407585" duration="7350000" />
+      <workItem from="1535108277704" duration="126000" />
+      <workItem from="1535166336166" duration="11258000" />
+      <workItem from="1535189249661" duration="5465000" />
+      <workItem from="1535248583925" duration="16928000" />
+      <workItem from="1535290320039" duration="242000" />
+      <workItem from="1535340349051" duration="14225000" />
+      <workItem from="1535515077939" duration="950000" />
+      <workItem from="1535597771634" duration="909000" />
+      <workItem from="1535687365010" duration="1224000" />
+      <workItem from="1535854614447" duration="1029000" />
+      <workItem from="1535856580214" duration="633000" />
+      <workItem from="1536481595476" duration="819000" />
+      <workItem from="1537518870377" duration="925000" />
+      <workItem from="1537752228931" duration="719000" />
+      <workItem from="1537754958229" duration="483000" />
+      <workItem from="1538555918959" duration="15199000" />
+      <workItem from="1538709343810" duration="1816000" />
+      <workItem from="1538725660096" duration="35251000" />
+      <workItem from="1538823338421" duration="622000" />
+      <workItem from="1538827683921" duration="1075000" />
+      <workItem from="1538898768190" duration="314000" />
+      <workItem from="1538908063210" duration="22591000" />
+      <workItem from="1539088226541" duration="117000" />
+      <workItem from="1539138728923" duration="9016000" />
+      <workItem from="1539332663211" duration="7355000" />
+      <workItem from="1539389370386" duration="3213000" />
+      <workItem from="1539393153928" duration="4771000" />
+      <workItem from="1539585611988" duration="35714000" />
+      <workItem from="1539699089709" duration="2348000" />
+      <workItem from="1539735372328" duration="6550000" />
+      <workItem from="1539859978364" duration="532000" />
+      <workItem from="1539860552494" duration="11525000" />
+      <workItem from="1539937773181" duration="24374000" />
+      <workItem from="1540023776200" duration="10402000" />
+      <workItem from="1540040815632" duration="1605000" />
+      <workItem from="1540042475995" duration="135000" />
+      <workItem from="1540042646027" duration="1024000" />
+      <workItem from="1540043722956" duration="82000" />
+      <workItem from="1540043848846" duration="17161000" />
+      <workItem from="1540135366769" duration="1645000" />
+      <workItem from="1540207744220" duration="472000" />
+      <workItem from="1540208984742" duration="389000" />
+      <workItem from="1540214431296" duration="18301000" />
+      <workItem from="1540517440259" duration="9220000" />
+      <workItem from="1540601862510" duration="5766000" />
+      <workItem from="1540644967146" duration="303000" />
+    </task>
+    <task id="LOCAL-00001" summary="2018/10/21">
+      <created>1540135608225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540135608225</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2018/10/21">
+      <created>1540135745354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540135745354</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2018/10/21">
+      <created>1540209272257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540209272257</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2018/10/21">
+      <created>1540285046095</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540285046095</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2018/10/23 &#10;修改TypeConverterComposite 统一管理类型转化器作为基础组件">
+      <created>1540285123592</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540285123592</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge branch 'master' of gitee.com:wukangio/helison.archer&#10;&#10;# Conflicts:&#10;#&#9;untitled/.idea/workspace.xml">
+      <created>1540340230472</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540340230472</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="XmlReaderTest_loadDocument - 2018.08.24 at 17h 41m 41s.xml">
+      <configuration name="XmlReaderTest.loadDocument" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultParamNameDiscoverTest_decorateByteCodeType - 2018.10.18 at 20h 38m 21s.xml">
+      <configuration name="DefaultParamNameDiscoverTest.decorateByteCodeType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultParamNameDiscoverTest_decorateByteCodeType - 2018.10.18 at 20h 38m 42s.xml">
+      <configuration name="DefaultParamNameDiscoverTest.decorateByteCodeType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultParamNameDiscoverTest_decorateByteCodeType - 2018.10.18 at 20h 38m 52s.xml">
+      <configuration name="DefaultParamNameDiscoverTest.decorateByteCodeType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultParamNameDiscoverTest_decorateByteCodeType - 2018.10.18 at 20h 39m 22s.xml">
+      <configuration name="DefaultParamNameDiscoverTest.decorateByteCodeType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultParamNameDiscoverTest_decorateByteCodeType - 2018.10.18 at 20h 39m 34s.xml">
+      <configuration name="DefaultParamNameDiscoverTest.decorateByteCodeType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultParamNameDiscoverTest_decorateByteCodeType - 2018.10.18 at 20h 40m 06s.xml">
+      <configuration name="DefaultParamNameDiscoverTest.decorateByteCodeType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultParamNameDiscoverTest_decorateByteCodeType - 2018.10.18 at 20h 40m 47s.xml">
+      <configuration name="DefaultParamNameDiscoverTest.decorateByteCodeType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultParamNameDiscoverTest_getConstructorParamNames - 2018.10.18 at 20h 47m 13s.xml">
+      <configuration name="DefaultParamNameDiscoverTest.getConstructorParamNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DefaultParamNameDiscoverTest_getConstructorParamNames - 2018.10.18 at 20h 49m 02s.xml">
+      <configuration name="DefaultParamNameDiscoverTest.getConstructorParamNames" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="335067000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2191689" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.3427762" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31303117" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5013405" side_tool="true" weight="0.3427762" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49932975" weight="0.23087819" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="JRebel Executor" order="12" />
+      <window_info anchor="bottom" id="JRebel Console" order="13" sideWeight="0.50067025" side_tool="true" weight="0.2776204" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="14" visible="true" weight="0.3739968" />
+      <window_info anchor="bottom" id="Duplicate detector" order="15" weight="0.32956153" />
+      <window_info anchor="bottom" id="Thumbnails" order="16" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24941725" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="UML design tool window" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.30630028" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.16487935" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="11" weight="0.014075067" />
+      <window_info anchor="right" x="93" y="93" width="1350" height="638" id="Byte Code Viewer" order="12" type="FLOATING" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="2018/10/21" />
+    <MESSAGE value="2018/10/23 &#10;修改TypeConverterComposite 统一管理类型转化器作为基础组件" />
+    <MESSAGE value="Merge branch 'master' of gitee.com:wukangio/helison.archer&#10;&#10;# Conflicts:&#10;#&#9;untitled/.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of gitee.com:wukangio/helison.archer&#10;&#10;# Conflicts:&#10;#&#9;untitled/.idea/workspace.xml" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/archer/container/support/ConfigurationBasedBeanContainer.java</url>
+          <line>191</line>
+          <properties />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/archer/container/support/ConfigurationBasedBeanContainer.java</url>
+          <line>198</line>
+          <properties />
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/context/lifecycle/LifeCycleBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/convert/TypeConverterComposite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-882">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/META-INF/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/Aware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/BeanAliasRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/BeanDefinitionRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/BeanPropertiesAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/Capable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/FactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/NamedBeanContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/ObjectCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/PropertyValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="method#PropertyValue#0;class#PropertyValue#0" />
+            <element signature="method#getBeanType#0;class#PropertyValue#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/Rankable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/BeanContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/BeanException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/HierarchicalBeanContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/ext/impl/CglibMethodOverrideProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/BeanNameGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/AbstractEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/AliasCircleMappingException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/AmbiguousChoicesException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/AnnotatedBeanContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/BeanContatinerAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/BeanCreationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/BeanCurrentlyInCreationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/BeanInstantiationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/ext/ExtensibleBeanContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/BeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/BeanWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/ConfigurableBeanContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/ConfigurationBasedBeanContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="83" column="42" lean-forward="true" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/support/ContainerEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/annnotation/Bean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/annnotation/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/annnotation/DependsOn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/annnotation/Import.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/annnotation/ImportSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/ConfigReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/ConfigurationClassResover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/HasHorizontalRelationship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/HasVerticalRelationShip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/JavaReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/NameSpaceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/NameSpaceHandlerComposite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/config/XmlReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="261" column="21" lean-forward="true" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/container/context/lifecycle/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+              <type id="artifact" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>container:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3106893" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3106893" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>container</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3106893" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>javax.inject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3106893" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
