@@ -20,7 +20,7 @@ import java.util.Map;
  */
 @Description(description = "此类需要配合ConfigurableBeanContainer使用")
 public class MethodAccessor implements ParamNameMethodDiscover,MethodInfoAccessor{
-    private ConfigurableBeanContainer container;
+    private ListableBeanContainer container;
     private Class<?> currentlyAccessedClass;
     private ParamNameMethodDiscover delegation;
     private static MethodAccessor accessor=new MethodAccessor();
@@ -29,7 +29,7 @@ public class MethodAccessor implements ParamNameMethodDiscover,MethodInfoAccesso
     private MethodAccessor(){
         delegation=new DefaultParamNameDiscover();
     }
-    public MethodAccessor(ParamNameMethodDiscover delegation, ConfigurableBeanContainer container){
+    public MethodAccessor(ParamNameMethodDiscover delegation, ListableBeanContainer container){
         this.delegation=delegation;
         this.container=container;
     }
@@ -164,9 +164,9 @@ public class MethodAccessor implements ParamNameMethodDiscover,MethodInfoAccesso
                     boolean existCorrespondConverter=false;
                     if(converters!=null&&!converters.isEmpty()){
                         for(TypeConverter converter:converters){
-                            if(converter.support(propertyValue.getValue().getClass(),paramTypes[index])){
+                            if(converter.support(propertyValue.getOriginalValue().getClass(),paramTypes[index])){
                                 //todo
-                                propertyValue.setValue(converter.convert(propertyValue.getValue()));
+                                propertyValue.setValue(converter.convert(propertyValue.getOriginalValue()));
                                 existCorrespondConverter=true;
                             }
                         }

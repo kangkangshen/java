@@ -10,17 +10,10 @@ public interface BeanDefinitionManager extends ListableBeanContainer {
 
     boolean instantiable(BeanDefinition beanDefinition);
 
-    void setAllowBeanDefinitionOverride(boolean allowBeanDefinitionOverride);
-
-    boolean getAllowBeanDefinitionOverride();
-
     boolean isLazyInit(BeanDefinition definition);
-
-    boolean containsBeanDefinition(BeanDefinition definition);
 
     void removeBeanDefinition(String beanName) throws NoSuchBeanDefinitionException;
 
-    @Override
     BeanDefinition getBeanDefinition(String beanName) throws NoSuchBeanDefinitionException;
 
     boolean containsBeanDefinition(String beanName);
@@ -30,10 +23,5 @@ public interface BeanDefinitionManager extends ListableBeanContainer {
     int getBeanDefinitionCount();
 
     boolean isBeanNameInUse(String beanName);
-
-
-
-
-
 
 }

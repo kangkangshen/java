@@ -4,5 +4,4 @@ package archer.container.support;/*
 
 public class BeanWrapper {
 
-
 }

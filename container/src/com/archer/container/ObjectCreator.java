@@ -4,6 +4,6 @@ package archer.container;/*
 
 public interface ObjectCreator<T> {
 
-     T createObject();
+     T getObject();
 
 }

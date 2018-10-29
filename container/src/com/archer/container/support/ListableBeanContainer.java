@@ -19,26 +19,5 @@ public interface ListableBeanContainer extends BeanContainer {
 
    int getBeanCount();
 
-   BeanDefinition getBeanDefinition(String name);
-
-   List<BeanDefinition> getBeanDefinitions();
-
-   List<BeanDefinition> getBeanDefinition(Class<?> type);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

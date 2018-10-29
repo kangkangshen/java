@@ -16,25 +16,6 @@ public class AspectJMethodOverrideProcessor implements BeanPostProcessor , BeanC
     private ConfigurableBeanContainer container;
 
     @Override
-    public Object processRawBeanBeforeInstantiation(Object rawBean) {
-        if(rawBean instanceof RootBeanDefinition){
-            RootBeanDefinition originalBeanDefinition= (RootBeanDefinition) rawBean;
-            MethodOverrides overrides=originalBeanDefinition.getMethodOverrides();
-            overrides.validate();
-            return getMethodOverridesProxy(originalBeanDefinition,overrides);
-        }
-        return null;
-    }
-
-
-
-    @Override
-    public Object processInstanceAfterInstantiation(Object bean) {
-        return bean;
-    }
-
-
-    @Override
     public void setBeanContainer(BeanContainer container) {
         if(ObjectUtils.isInstanceOf(container, ConfigurableBeanContainer.class)){
             this.container= (ConfigurableBeanContainer) container;
@@ -47,4 +28,13 @@ public class AspectJMethodOverrideProcessor implements BeanPostProcessor , BeanC
 
     }
 
+    @Override
+    public Object processRawBeanBeforeInitialization(Object rawBean) {
+        return null;
+    }
+
+    @Override
+    public Object processInstanceAfterInitialization(Object bean) {
+        return null;
+    }
 }

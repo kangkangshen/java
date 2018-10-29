@@ -5,6 +5,7 @@ package archer.container.support.baseImpl;/*
 import archer.container.BeanAliasRegistrar;
 import archer.container.support.AliasCircleMappingException;
 import archer.container.support.NameAliasMappingChangedException;
+import archer.container.support.debug.Description;
 import archer.container.util.StringUtils;
 
 import java.util.*;
@@ -81,9 +82,16 @@ public class AbstractAliasRegistrar implements BeanAliasRegistrar {
 
     @Override
     public String getAutonym(String alias) {
-        String autonym=alias;
-        while(aliasMap.containsKey(autonym)){
-            autonym=aliasMap.get(autonym);
+        String autonym=formalizeBeanName(alias);
+
+        //if havent registered,then not contains any value in here
+        if(!aliasMap.containsValue(alias)){
+            //is not register alias -> autonym
+            return null;
+        }else{
+            while(aliasMap.containsKey(autonym)){
+                autonym=aliasMap.get(autonym);
+            }
         }
         return autonym;
     }
@@ -93,7 +101,11 @@ public class AbstractAliasRegistrar implements BeanAliasRegistrar {
             throw new AliasCircleMappingException("There are cyclic mappings between bean name : "+name+" and alias : "+alias);
         }
     }
+
     protected String formalizeBeanName(String beanName){
+        if(beanName.startsWith("&")){
+            beanName=beanName.substring(beanName.charAt('&')+1);
+        }
         if(needDeleteChar!=null&&!needDeleteChar.isEmpty()){
             for(char ch:needDeleteChar){
                 beanName.replace(ch,' ');
