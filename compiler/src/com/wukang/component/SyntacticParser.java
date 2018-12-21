@@ -7,12 +7,10 @@ import com.wukang.*;
 import com.wukang.util.Description;
 import com.wukang.util.ArrayUtils;
 import java.util.Queue;
-import java.util.Stack;
 
 public class SyntacticParser {
 
     private Queue<Entry> wordsQueue;
-
 
     public SyntacticParser(){}
 
@@ -21,7 +19,7 @@ public class SyntacticParser {
     }
 
     @Description("接口函数")
-    public boolean parse() throws IllegalStateException{
+    public boolean parse(){
         role$0();
         return true;
     }

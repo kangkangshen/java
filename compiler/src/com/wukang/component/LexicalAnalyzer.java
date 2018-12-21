@@ -7,10 +7,8 @@ import com.wukang.util.ArrayUtils;
 import sun.java2d.opengl.WGLSurfaceData;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.Buffer;
 import java.util.*;
 
 //词法分析器
@@ -79,13 +77,17 @@ public class LexicalAnalyzer {
     public boolean isLeftParenthesis(String str){
         return SystemWord.LEFT_PARENTHESIS.equals(str);
     }
+
     public boolean isRightParenthesis(String str){
         return SystemWord.RIGHT_PARENTHESIS.equals(str);
     }
+
     public boolean isPeriod(String str){
         return SystemWord.PERIOD.equals(str);
     }
+
     public boolean isODD(String str){return SystemWord.ODD.equals(str);}
+
     public boolean isVariableName(String str){
         for(int i=0;i<str.length();i++){
             if(!((str.charAt(i)>='0'&&str.charAt(i)<='9')||(str.charAt(i)>='a'&&str.charAt(i)<='z')||(str.charAt(i)>='A'&&str.charAt(i)<='Z'))){

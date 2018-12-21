@@ -2,5 +2,7 @@ package archer.aop.interceptor;/*
  *@author:wukang
  */
 
-public class MethodInvocation {
+public interface MethodInvocation {
+    Object proceed();
+
 }

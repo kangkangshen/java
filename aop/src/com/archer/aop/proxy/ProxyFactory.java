@@ -2,5 +2,6 @@ package archer.aop.proxy;/*
  *@author:wukang
  */
 
-public class ProxyFactory {
+public interface ProxyFactory {
+    Object getProxy();
 }

@@ -1,22 +1,550 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c68f12bf-b092-4643-815e-c95fc84381dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/aop/BeanInstantiationPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/aop/BeanInstantiationPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/aop/annotation/After.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/aop/annotation/After.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/aop/annotation/Around.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/aop/annotation/Around.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/aop/annotation/Aspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/aop/annotation/Aspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/aop/annotation/Before.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/aop/annotation/Before.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/aop/annotation/PointCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/aop/annotation/PointCut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/aop/annotation/Throw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/aop/annotation/Throw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/aop/config/AopRegxParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/aop/config/AopRegxParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/aop/interceptor/MethodInvocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/aop/interceptor/MethodInvocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/aop/proxy/InterceptorChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/aop/proxy/InterceptorChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/archer/aop/proxy/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/archer/aop/proxy/ProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archerspringaop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../archerspringaop/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archerspringaop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../archerspringaop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archerspringaop/archerspringaop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../archerspringaop/archerspringaop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archerspringaop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../archerspringaop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archerspringaop/src/com/archer/springaop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../archerspringaop/src/com/archer/springaop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archerspringaop/src/com/archer/springaop/adapter/AbstractAutoProxyCreatorAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../archerspringaop/src/com/archer/springaop/adapter/AbstractAutoProxyCreatorAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../container/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../container/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/aop/proxy/ProxyFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/aop/annotation/Aspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/aop/annotation/Before.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/aop/annotation/After.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/aop/annotation/Around.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/aop/annotation/Throw.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/aop/annotation/PointCut.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/aop/config/AopRegxParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/aop/interceptor/MethodInvocation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/archer/aop/proxy/InterceptorChain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Aspect" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/archer/aop/BeanInstantiationPostProcessor.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/aop/annotation/Aspect.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/aop/annotation/Before.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/aop/annotation/After.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/aop/annotation/Around.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/aop/annotation/Throw.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/aop/annotation/PointCut.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/aop/proxy/ProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/aop/config/AopRegxParser.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/aop/interceptor/MethodInvocation.java" />
+        <option value="$PROJECT_DIR$/src/com/archer/aop/proxy/InterceptorChain.java" />
+        <option value="$PROJECT_DIR$/../archerspringaop/src/com/archer/springaop/Adapter.java" />
+        <option value="$PROJECT_DIR$/../archerspringaop/pom.xml" />
+        <option value="$PROJECT_DIR$/../archerspringaop/src/com/archer/springaop/ContainerAdapter.java" />
+        <option value="$PROJECT_DIR$/../archerspringaop/src/com/archer/springaop/BeanContainerAdapter.java" />
+        <option value="$PROJECT_DIR$/../archerspringaop/src/com/archer/springaop/Main.java" />
+        <option value="$PROJECT_DIR$/../archerspringaop/src/com/archer/springaop/adapter/AbstractAutoProxyCreatorAdapter.java" />
+        <option value="$PROJECT_DIR$/../container/src/com/archer/container/ObjectCreator.java" />
+        <option value="$PROJECT_DIR$/../container/src/com/archer/container/support/ext/ExtensibleBeanContainer.java" />
+        <option value="$PROJECT_DIR$/../container/src/com/archer/container/support/BeanPostProcessor.java" />
+        <option value="$PROJECT_DIR$/../container/src/com/archer/container/support/BeanWrapper.java" />
+        <option value="$PROJECT_DIR$/../container/src/com/archer/container/definition/BeanDefinitionManager.java" />
+        <option value="$PROJECT_DIR$/../container/src/com/archer/container/support/ext/impl/AspectJMethodOverrideProcessor.java" />
+        <option value="$PROJECT_DIR$/../container/src/com/archer/container/Main.java" />
+        <option value="$PROJECT_DIR$/../container/src/com/archer/container/support/baseImpl/AbstractAliasRegistrar.java" />
+        <option value="$PROJECT_DIR$/../container/src/com/archer/container/support/ListableBeanContainer.java" />
+        <option value="F:/spring-learn/src/main/java/aop/Tiger.java" />
+        <option value="F:/spring-learn/src/main/java/aop/Main.java" />
+        <option value="F:/spring-learn/src/main/java/aop/Super.java" />
+        <option value="F:/spring-learn/src/main/java/aop/Sub.java" />
+        <option value="$PROJECT_DIR$/../container/src/com/archer/container/support/MethodAccessor.java" />
+        <option value="$PROJECT_DIR$/../container/src/com/archer/container/support/ConfigurationBasedBeanContainer.java" />
+        <option value="$PROJECT_DIR$/../container/src/com/archer/container/support/AbstractBeanContainer.java" />
+        <option value="F:/compiler/src/com/wukang/SystemWord.java" />
+        <option value="F:/compiler/src/com/wukang/ArrayUtils.java" />
+        <option value="F:/compiler/src/com/wukang/Main.java" />
+        <option value="F:/spring-learn/src/main/java/InitializationOrder/Father.java" />
+        <option value="F:/spring-learn/src/main/java/InitializationOrder/Foo.java" />
+        <option value="F:/spring-learn/src/main/java/InitializationOrder/Main.java" />
+        <option value="F:/spring-learn/src/main/java/InitializationOrder/Son.java" />
+        <option value="F:/spring-learn/src/main/java/InitializationOrder/HH.java" />
+        <option value="F:/compiler/src/com/wukang/SystemWordEntry.java" />
+        <option value="F:/compiler/src/com/wukang/Variable.java" />
+        <option value="F:/compiler/src/com/wukang/VariableEntry.java" />
+        <option value="F:/compiler/src/com/wukang/Entry.java" />
+        <option value="F:/compiler/src/com/wukang/TableItem.java" />
+        <option value="F:/compiler/src/com/wukang/ConstantItem.java" />
+        <option value="F:/compiler/src/com/wukang/VariableNameItem.java" />
+        <option value="F:/compiler/src/com/wukang/ConstantEntry.java" />
+        <option value="F:/compiler/src/com/wukang/LexicalAnalyzer.java" />
+        <option value="F:/compiler/src/com/wukang/SyntacticParser.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-229" />
-    <option name="y" value="166" />
-    <option name="width" value="1350" />
-    <option name="height" value="895" />
+    <option name="x" value="155" />
+    <option name="y" value="195" />
+    <option name="width" value="1080" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="aop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540798623468" />
+    <property name="last_opened_file_path" value="F:/spring-learn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3106893" />
     <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\gitRepository\aop\src\com" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c68f12bf-b092-4643-815e-c95fc84381dc" name="Default Changelist" comment="" />
+      <created>1540644117070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540644117070</updated>
+      <workItem from="1540644120257" duration="771000" />
+      <workItem from="1540644980648" duration="2950000" />
+      <workItem from="1540716004920" duration="3126000" />
+      <workItem from="1540808592335" duration="700000" />
+      <workItem from="1540992919533" duration="625000" />
+      <workItem from="1541083332213" duration="37000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8209000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09986595" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Designer" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.33002833" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="JRebel Console" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="5" visible="true" weight="0.22587131" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="UML design tool window" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/archer/App.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/aop/BeanInstantiationPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/aop/Aspe.aj" />
+    <entry file="file://$PROJECT_DIR$/src/com/archer/aop/proxy/ProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/aop/annotation/Aspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/aop/annotation/Before.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/aop/annotation/After.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/aop/annotation/Around.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/aop/annotation/Throw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/aop/annotation/PointCut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/aop/config/AopRegxParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/aop/interceptor/MethodInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/archer/aop/proxy/InterceptorChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>aop</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3106893" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

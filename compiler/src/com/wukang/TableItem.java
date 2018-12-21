@@ -12,7 +12,6 @@ public abstract class TableItem {
         this.literals=literals;
         this.realVal=realVal;
         this.offset=offset;
-
     }
 
     public TableItem(String literals,int offset){
