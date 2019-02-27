@@ -14,7 +14,7 @@ public class Main {
         Student student= (Student) container.getBean("wukang");
         student.print();
         System.out.println("hello,world");
-
+        System.out.println("hello,world");
 
     }
 
