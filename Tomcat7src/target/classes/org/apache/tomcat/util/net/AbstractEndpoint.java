@@ -125,7 +125,7 @@ public abstract class AbstractEndpoint<S> {
     private volatile LimitLatch connectionLimitLatch = null;
 
     /**
-     * Socket properties
+     * Socket properties,管理socket属性
      */
     protected SocketProperties socketProperties = new SocketProperties();
     public SocketProperties getSocketProperties() {

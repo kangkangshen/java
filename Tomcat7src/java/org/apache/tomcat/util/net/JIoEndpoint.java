@@ -213,6 +213,7 @@ public class JIoEndpoint extends AbstractEndpoint<Socket> {
 
                 try {
                     //if we have reached max connections, wait
+                    //使用闭锁实现控制最大连接数没有一个连接，就+1，每关闭一个连接-1，效果是跟信号量差不多的
                     countUpOrAwaitConnection();
 
                     Socket socket = null;
@@ -371,7 +372,7 @@ public class JIoEndpoint extends AbstractEndpoint<Socket> {
 
 
     // -------------------- Public methods --------------------
-
+    //父类调用start,其中调用bind,接着调用startInternal
     @Override
     public void bind() throws Exception {
 

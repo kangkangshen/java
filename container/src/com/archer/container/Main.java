@@ -13,6 +13,8 @@ public class Main {
         BeanContainer container=new ConfigurationBasedBeanContainer("F:\\gitRepository\\container\\src\\com\\META-INF\\config.xml");
         Student student= (Student) container.getBean("wukang");
         student.print();
+        System.out.println("hello,world");
+
 
     }
 

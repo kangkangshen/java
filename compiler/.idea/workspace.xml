@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44be057f-d5b7-4e5c-bb31-b1a609a7b02f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/aop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/aop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/src/com/archer/aop/BeanInstantiationPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/src/com/archer/aop/BeanInstantiationPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/src/com/archer/aop/annotation/After.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/src/com/archer/aop/annotation/After.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/src/com/archer/aop/annotation/Around.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/src/com/archer/aop/annotation/Around.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/src/com/archer/aop/annotation/Aspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/src/com/archer/aop/annotation/Aspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/src/com/archer/aop/annotation/Before.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/src/com/archer/aop/annotation/Before.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/src/com/archer/aop/annotation/PointCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/src/com/archer/aop/annotation/PointCut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/src/com/archer/aop/annotation/Throw.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/src/com/archer/aop/annotation/Throw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/src/com/archer/aop/config/AopRegxParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/src/com/archer/aop/config/AopRegxParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/src/com/archer/aop/interceptor/MethodInvocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/src/com/archer/aop/interceptor/MethodInvocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/src/com/archer/aop/proxy/InterceptorChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/src/com/archer/aop/proxy/InterceptorChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aop/src/com/archer/aop/proxy/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aop/src/com/archer/aop/proxy/ProxyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archerspringaop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../archerspringaop/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archerspringaop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../archerspringaop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archerspringaop/archerspringaop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../archerspringaop/archerspringaop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archerspringaop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../archerspringaop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archerspringaop/src/com/archer/springaop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../archerspringaop/src/com/archer/springaop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../archerspringaop/src/com/archer/springaop/adapter/AbstractAutoProxyCreatorAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../archerspringaop/src/com/archer/springaop/adapter/AbstractAutoProxyCreatorAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wukang/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wukang/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wukang/SystemWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wukang/SystemWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wukang/TableItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wukang/TableItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wukang/component/LexicalAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wukang/component/LexicalAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wukang/component/SyntacticParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wukang/component/SyntacticParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/compiler.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wukang/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wukang/component/LexicalAnalyzer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wukang/component/LexicalAnalyzer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wukang/component/SyntacticParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wukang/component/SyntacticParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../container/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../container/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wukang/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -58,42 +27,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wukang/component/SyntacticParser.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="393" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#role$0#0;class#SyntacticParser#0" />
-                <element signature="method#role$1#0;class#SyntacticParser#0" />
-                <element signature="method#role$2#0;class#SyntacticParser#0" />
-                <element signature="method#role$3#0;class#SyntacticParser#0" />
-                <element signature="method#role$4#0;class#SyntacticParser#0" />
-                <element signature="method#role$5#0;class#SyntacticParser#0" />
-                <element signature="method#role$6#0;class#SyntacticParser#0" />
-                <element signature="method#role$7#0;class#SyntacticParser#0" />
-                <element signature="method#role$8#0;class#SyntacticParser#0" />
-                <element signature="method#role$9#0;class#SyntacticParser#0" />
-                <element signature="method#role$10#0;class#SyntacticParser#0" />
-                <element signature="method#role$11#0;class#SyntacticParser#0" />
-                <element signature="method#role$12#0;class#SyntacticParser#0" />
-                <element signature="method#role$13#0;class#SyntacticParser#0" />
-                <element signature="method#role$14#0;class#SyntacticParser#0" />
-                <element signature="method#role$15#0;class#SyntacticParser#0" />
-                <element signature="method#role$16#0;class#SyntacticParser#0" />
-                <element signature="method#role$17#0;class#SyntacticParser#0" />
-                <element signature="method#role$18#0;class#SyntacticParser#0" />
-                <element signature="method#role$19#0;class#SyntacticParser#0" />
-                <element signature="method#role$20#0;class#SyntacticParser#0" />
-                <element signature="method#role$21#0;class#SyntacticParser#0" />
-                <element signature="method#role$22#0;class#SyntacticParser#0" />
-                <element signature="method#role$23#0;class#SyntacticParser#0" />
-                <element signature="method#role$24#0;class#SyntacticParser#0" />
-                <element signature="method#role$25#0;class#SyntacticParser#0" />
-              </folding>
+            <state relative-caret-position="1512">
+              <caret line="72" column="10" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -241,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/com/wukang/config/Aspect.java" />
         <option value="$PROJECT_DIR$/src/com/wukang/config/ParserAspect.java" />
         <option value="$PROJECT_DIR$/src/com/wukang/config/compiler.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/com/wukang/component/ParserProxyFactory.java" />
         <option value="$PROJECT_DIR$/src/com/wukang/component/PrintTreeAspect.java" />
         <option value="$PROJECT_DIR$/src/com/wukang/component/TreeNode.java" />
@@ -252,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/com/wukang/component/SyntacticParser.java" />
         <option value="$PROJECT_DIR$/src/com/wukang/SystemWord.java" />
         <option value="$PROJECT_DIR$/src/com/wukang/TableItem.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -273,9 +214,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="242" />
-    <option name="y" value="57" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="241" />
+    <option name="y" value="56" />
     <option name="width" value="1805" />
     <option name="height" value="1025" />
   </component>
@@ -285,7 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -316,13 +256,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545017344175" />
-    <property name="last_opened_file_path" value="F:/tomcatsrc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -405,16 +346,18 @@
       <workItem from="1545013242539" duration="3927000" />
       <workItem from="1545101134848" duration="364000" />
       <workItem from="1545101548221" duration="603000" />
+      <workItem from="1545378369846" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83970000" />
+    <option name="totallyTimeSpent" value="84006000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="194" y="46" width="1444" height="820" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24262735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -589,14 +532,6 @@
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wukang/VariableNameItem.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -782,6 +717,14 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="72" column="10" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">

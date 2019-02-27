@@ -144,6 +144,7 @@ public class Catalina {
 
     public Catalina() {
         setSecurityProtection();
+        System.out.println(server==null);
     }
 
 
@@ -540,7 +541,7 @@ public class Catalina {
     public void load() {
 
         long t1 = System.nanoTime();
-
+        //初始化文件路径，临时文件路径等
         initDirs();
 
         // Before digester - it may be needed
@@ -673,6 +674,7 @@ public class Catalina {
 
 
     /**
+     * 在这之前调用了load，加载conf/server.xml
      * Start a new server instance.
      */
     public void start() {

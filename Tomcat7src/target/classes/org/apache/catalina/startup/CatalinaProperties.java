@@ -83,7 +83,8 @@ public class CatalinaProperties {
 
 
     /**
-     * Load properties.
+     * Load properties.加载位于系统变量catalina.config|catalina.home/conf/catalina.properties|startup/catalina.properties
+     * 到系统变量中，方便后续使用
      */
     private static void loadProperties() {
 

@@ -392,7 +392,7 @@ public final class Bootstrap {
     public static void main(String args[]) {
         System.out.println(args==null);
         System.out.println(args.length);
-        
+
 
         if (daemon == null) {
             // Don't set daemon until init() has completed
