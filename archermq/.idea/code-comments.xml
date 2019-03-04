@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CodeComments">
+    <comments>
+      <comment>
+        <place path="src/main/java/Main.java" from="60" to="60" />
+        <text />
+        <data>这段代码知道</data>
+      </comment>
+    </comments>
+  </component>
+</project>

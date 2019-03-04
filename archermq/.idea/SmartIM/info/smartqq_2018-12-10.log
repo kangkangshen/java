@@ -1,0 +1,159 @@
+2018-12-10 10:18:30.006 [Thread-9] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 正在获取 uuid ... 
+2018-12-10 10:18:30.234 [Thread-9] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 正在获取二维码 ... 成功
+
+2018-12-10 10:18:31.394 [Thread-9] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:18:39.639 [Thread-9] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请在手机上点击确认以登录 ... 
+
+2018-12-10 10:18:41.661 [Thread-9] INFO  io.github.biezhi.wechat.api.WechatApi -
+				[*] 设置cookie [wxuin=577399791;wxsid=xIzBDVBMBP0oN2N5;wxloadtime=1544408320;mm_lang=zh_CN;webwx_data_ticket=gSfRL3mM33hiWNBQoan6GC6z;webwxuvid=19cc07411b0efb64a37f22f4e030470fec795b9a7680bba4c546c73f7147d652eace3072581fb5ce776cc99cf7f6a38a;webwx_auth_ticket=CIsBEMTd2uIHGoABK7dBupiawer/J8xWEEnO/oRR5UrylwjsxqzwCKlM3bUKIrdWhLWvIH6zrKk1SxO/xFZ6JHtXrfmbqwSi3JqfqEZn/3jnYCMM/aL+sNpfir8tTpav68gvC7Ze9IUrM89Cgf1nMFive+ogWRHB40P17DA8HKwFxEkcS62tt+sQT10=;]
+2018-12-10 10:18:41.913 [Thread-10] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 开启状态通知 ... 
+2018-12-10 10:18:41.980 [Thread-10] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 获取联系人 ... 
+2018-12-10 10:18:42.855 [Thread-10] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 应有 [0] 个联系人，读取到联系人 [19] 个
+
+2018-12-10 10:18:42.855 [Thread-10] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 共有 [0] 个群 | [19] 个直接联系人 | [31] 个特殊账号 ｜ [62] 个公众号/服务号
+
+2018-12-10 10:18:44.139 [Thread-11] INFO  io.github.biezhi.wechat.api.WechatClient -
+				intercept msg : type:51, msg:null
+2018-12-10 10:24:00.907 [Thread-8] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 正在获取 uuid ... 
+2018-12-10 10:24:01.142 [Thread-8] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 正在获取二维码 ... 成功
+
+2018-12-10 10:24:02.287 [Thread-8] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:24:08.392 [Thread-8] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请在手机上点击确认以登录 ... 
+
+2018-12-10 10:24:10.089 [Thread-8] INFO  io.github.biezhi.wechat.api.WechatApi -
+				[*] 设置cookie [wxuin=577399791;wxsid=TN4pHjtXLyO9h/xg;wxloadtime=1544408649;mm_lang=zh_CN;webwx_data_ticket=gSdnoJ1a/jA3C3njbvaXjfml;webwxuvid=19cc07411b0efb64a37f22f4e030470f740b7051ea88e232abca2e8271afd5868f6cbf231abf189041a8dcdb5dba7bea;webwx_auth_ticket=CIsBEObRkukIGoABV7HoOScK7cvxXWYDUBudUIRR5UrylwjsxqzwCKlM3bVW465mhRwGjlo30m5KoX0mamVlDSqaM1x4NMX1S3M61WGptTaeD/YXC2ctQ+/earglzskDTOEj9FBvjtxOipZsu4wOihuopyn/lsjt/4NnLDA8HKwFxEkcS62tt+sQT10=;]
+2018-12-10 10:24:10.340 [Thread-10] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 开启状态通知 ... 
+2018-12-10 10:24:10.422 [Thread-10] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 获取联系人 ... 
+2018-12-10 10:24:11.424 [Thread-10] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 应有 [0] 个联系人，读取到联系人 [19] 个
+
+2018-12-10 10:24:11.424 [Thread-10] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 共有 [0] 个群 | [19] 个直接联系人 | [31] 个特殊账号 ｜ [62] 个公众号/服务号
+
+2018-12-10 10:24:12.682 [Thread-11] INFO  io.github.biezhi.wechat.api.WechatClient -
+				intercept msg : type:51, msg:null
+2018-12-10 10:26:30.472 [Thread-15] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 正在获取 uuid ... 
+2018-12-10 10:26:30.683 [Thread-15] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 正在获取二维码 ... 成功
+
+2018-12-10 10:26:31.827 [Thread-15] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:26:34.282 [Thread-11] WARN  io.github.biezhi.wechat.api.WechatClient -
+				[*] 你在手机上登出了微信
+
+2018-12-10 10:26:57.742 [Thread-17] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 正在获取 uuid ... 
+2018-12-10 10:26:58.077 [Thread-17] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 正在获取二维码 ... 成功
+
+2018-12-10 10:26:59.341 [Thread-17] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:27:01.991 [Thread-18] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 正在获取 uuid ... 
+2018-12-10 10:27:02.060 [Thread-18] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 正在获取二维码 ... 成功
+
+2018-12-10 10:27:03.205 [Thread-18] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:27:05.743 [Thread-20] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 正在获取 uuid ... 
+2018-12-10 10:27:05.947 [Thread-20] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 正在获取二维码 ... 成功
+
+2018-12-10 10:27:07.089 [Thread-20] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:27:10.661 [Thread-20] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请在手机上点击确认以登录 ... 
+
+2018-12-10 10:27:12.295 [Thread-20] INFO  io.github.biezhi.wechat.api.WechatApi -
+				[*] 设置cookie [wxuin=577399791;wxsid=Gctk/Jz5oU6nPncd;wxloadtime=1544408831;mm_lang=zh_CN;webwx_data_ticket=gSdnsaN5Obj6PmEeUfthwIFr;webwxuvid=19cc07411b0efb64a37f22f4e030470f45e13fa9f74c275f387c649b9250014b303a6499e217ae3616b1a7d6a36f566e;webwx_auth_ticket=CIsBEI/gku8GGoAB8EY9oqtyeHEuiSQzu9AUfIRR5UrylwjsxqzwCKlM3bW1Nctg3MewZpueLXdsSxkNZlsCkK+i94m+RKXy6+2u4cybIo5TcvVeuO7wiYFxrB3AwlKs9OBb5hnhb75OnqtkL8XBYTH2bFAaw+q88E1oeDA8HKwFxEkcS62tt+sQT10=;]
+2018-12-10 10:27:12.565 [Thread-21] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 开启状态通知 ... 
+2018-12-10 10:27:12.647 [Thread-21] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 获取联系人 ... 
+2018-12-10 10:27:13.518 [Thread-21] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 应有 [0] 个联系人，读取到联系人 [20] 个
+
+2018-12-10 10:27:13.518 [Thread-21] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 共有 [0] 个群 | [20] 个直接联系人 | [31] 个特殊账号 ｜ [62] 个公众号/服务号
+
+2018-12-10 10:27:14.804 [Thread-22] INFO  io.github.biezhi.wechat.api.WechatClient -
+				intercept msg : type:51, msg:null
+2018-12-10 10:27:28.413 [Thread-18] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2018-12-10 10:27:29.425 [Thread-18] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:27:54.499 [Thread-18] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2018-12-10 10:27:55.505 [Thread-18] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:28:20.568 [Thread-18] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2018-12-10 10:28:21.570 [Thread-18] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:28:46.634 [Thread-18] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2018-12-10 10:28:47.649 [Thread-18] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:29:12.701 [Thread-18] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2018-12-10 10:29:13.704 [Thread-18] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:29:38.772 [Thread-18] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2018-12-10 10:29:39.286 [Thread-18] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:30:04.346 [Thread-18] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2018-12-10 10:30:04.846 [Thread-18] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:30:29.894 [Thread-18] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2018-12-10 10:30:30.416 [Thread-18] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:30:55.485 [Thread-18] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2018-12-10 10:30:55.987 [Thread-18] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2018-12-10 10:31:21.054 [Thread-18] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+

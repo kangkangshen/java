@@ -1,0 +1,129 @@
+2018-12-10 10:17:45.530 [Thread-7] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2018-12-10 10:17:45.815 [Thread-7] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 F:\archermq\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2018-12-10 10:17:45.815 [Thread-7] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2018-12-10 10:18:00.222 [Thread-7] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				正在登录，请稍后
+2018-12-10 10:18:00.223 [Thread-7] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取ptwebqq
+2018-12-10 10:18:00.905 [Thread-7] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取vfwebqq
+2018-12-10 10:18:01.366 [Thread-7] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取uin和psessionid
+2018-12-10 10:18:01.544 [Thread-7] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始获取好友状态
+2018-12-10 10:18:01.669 [Thread-8] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取登录用户信息
+2018-12-10 10:18:01.923 [Thread-8] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取好友列表
+2018-12-10 10:18:02.114 [Thread-8] ERROR com.scienjus.smartqq.client.SmartQQApi -
+				请求失败，Api返回码[100100]
+2018-12-10 10:19:48.730 [Thread-12] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2018-12-10 10:19:48.909 [Thread-12] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 F:\archermq\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2018-12-10 10:19:48.909 [Thread-12] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2018-12-10 10:19:49.940 [Thread-12] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已失效，尝试重新获取二维码
+2018-12-10 10:19:49.940 [Thread-12] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.lang.RuntimeException: 二维码已失效
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:184)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:191)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2018-12-10 10:19:49.954 [Thread-13] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取登录用户信息
+2018-12-10 10:19:50.469 [Thread-13] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取好友列表
+2018-12-10 10:19:50.624 [Thread-13] ERROR com.scienjus.smartqq.client.SmartQQApi -
+				请求失败，Api返回码[100100]
+2018-12-10 10:23:32.546 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2018-12-10 10:23:32.787 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 F:\archermq\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2018-12-10 10:23:32.787 [Thread-6] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2018-12-10 10:23:43.068 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				正在登录，请稍后
+2018-12-10 10:23:43.068 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取ptwebqq
+2018-12-10 10:23:43.744 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取vfwebqq
+2018-12-10 10:23:44.186 [Thread-6] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取uin和psessionid
+2018-12-10 10:23:44.373 [Thread-6] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始获取好友状态
+2018-12-10 10:23:44.510 [Thread-7] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取登录用户信息
+2018-12-10 10:23:44.773 [Thread-7] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取好友列表
+2018-12-10 10:23:44.924 [Thread-7] ERROR com.scienjus.smartqq.client.SmartQQApi -
+				请求失败，Api返回码[100100]
+2018-12-10 10:37:23.436 [Thread-26] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2018-12-10 10:37:23.646 [Thread-26] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 F:\archermq\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2018-12-10 10:37:23.646 [Thread-26] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2018-12-10 10:37:24.668 [Thread-26] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已失效，尝试重新获取二维码
+2018-12-10 10:37:24.668 [Thread-26] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.lang.RuntimeException: 二维码已失效
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:184)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:191)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2018-12-10 10:37:24.668 [Thread-27] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取登录用户信息
+2018-12-10 10:37:25.266 [Thread-27] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取好友列表
+2018-12-10 10:37:25.429 [Thread-27] ERROR com.scienjus.smartqq.client.SmartQQApi -
+				请求失败，Api返回码[100100]
+2018-12-10 10:37:32.823 [Thread-28] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2018-12-10 10:37:32.894 [Thread-28] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 F:\archermq\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2018-12-10 10:37:32.894 [Thread-28] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2018-12-10 10:37:33.948 [Thread-28] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已失效，尝试重新获取二维码
+2018-12-10 10:37:33.948 [Thread-28] ERROR com.scienjus.smartqq.client.SmartQQClient -
+				登录失败
+java.lang.RuntimeException: 二维码已失效
+	at com.scienjus.smartqq.client.SmartQQApi.verifyQRCode(SmartQQApi.java:184)
+	at com.scienjus.smartqq.client.SmartQQApi.login(SmartQQApi.java:109)
+	at com.scienjus.smartqq.client.SmartQQClient.login(SmartQQClient.java:191)
+	at cn.ieclipse.smartim.actions.LoginAction$1.run(LoginAction.java:31)
+2018-12-10 10:37:33.965 [Thread-29] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取登录用户信息
+2018-12-10 10:37:34.151 [Thread-29] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取好友列表
+2018-12-10 10:37:34.335 [Thread-29] ERROR com.scienjus.smartqq.client.SmartQQApi -
+				请求失败，Api返回码[100100]
+2018-12-10 10:37:53.759 [Thread-30] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2018-12-10 10:37:54.007 [Thread-30] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 F:\archermq\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2018-12-10 10:37:54.007 [Thread-30] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2018-12-10 10:38:00.458 [Thread-30] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				正在登录，请稍后
+2018-12-10 10:38:00.458 [Thread-30] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取ptwebqq
+2018-12-10 10:38:01.136 [Thread-30] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取vfwebqq
+2018-12-10 10:38:01.543 [Thread-30] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取uin和psessionid
+2018-12-10 10:38:01.710 [Thread-30] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始获取好友状态
+2018-12-10 10:38:01.860 [Thread-31] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取登录用户信息
+2018-12-10 10:38:02.117 [Thread-31] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取好友列表
+2018-12-10 10:38:02.292 [Thread-31] ERROR com.scienjus.smartqq.client.SmartQQApi -
+				请求失败，Api返回码[100100]
